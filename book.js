@@ -31,9 +31,9 @@ function Search(){
     if (bookname1 in localStorage) {
          selectedBook=JSON.parse(localStorage.getItem(bookname1))
 
-         result.innerHTML=`<h2 class="text-success">Book Name    : ${selectedBook.bookname}</h2>
-        <h2 class="text-success">Author Name  : ${selectedBook.bookauthor}</h2>
-        <h2 class="text-success">Description  : ${selectedBook.desc}</h2>   `         
+         result.innerHTML=`<h2 class="text-danger">Book Name    : ${selectedBook.bookname}</h2>
+        <h2 class="text-danger">Author Name  : ${selectedBook.bookauthor}</h2>
+        <h2 class="text-danger">Description  : ${selectedBook.desc}</h2>   `         
      
     }
     else{
